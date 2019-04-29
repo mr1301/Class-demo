@@ -72,7 +72,8 @@ if (test == 'Continue'):
             user_email = 'c22oding@gmail.com'
             user_pass ='sundriedtomatoes'
             subject = 'Trial-End Reminder'
-            message = "Hello Mercy, this is a friendly reminder that your month-long free trial for XYZ ends today"
+            message = "Hello Mercy,\n\n This is a friendly reminder that your month-long free trial for XYZ ends today.\n\n Best, \n\n Subscription Management Team"
+
 
             msg =MIMEMultipart()
             msg['To'] = user_email
@@ -99,7 +100,8 @@ if (test == 'Continue'):
                 user_email = 'c22oding@gmail.com'
                 user_pass ='sundriedtomatoes'
                 subject = 'Trial-End Reminder'
-                message = "Hello Mercy, this is a friendly reminder that your two-week-long free trial for XYZ ends today."
+                message = "Hello Mercy,\n\n This is a friendly reminder that your two-week-long free trial for XYZ ends today.\n\n Best, \n\n Subscription Management Team"
+
 
                 msg =MIMEMultipart()
                 msg['To'] = user_email
